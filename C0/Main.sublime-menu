@@ -1,0 +1,27 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "R",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open", 
+                 "caption": "C0",
+                 "id": "repl_C0",
+                 "mnemonic": "L",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["coin"],
+                    "cwd": "$file_path",
+                    "external_id": "C0",
+                    "syntax": "Packages/Text/Plain text.tmLanguage"
+                    }
+                }
+            ]   
+        }]
+    }
+]
