@@ -1,0 +1,12 @@
+[
+    { "keys": ["command+b"], "command": "c0compile", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.c0" }
+        ]
+    },
+    { "keys": ["command+shift+b"], "command": "c0coin", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.c0" }
+        ]
+    }
+]
